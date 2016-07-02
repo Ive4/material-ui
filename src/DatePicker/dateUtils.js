@@ -1,11 +1,9 @@
 import warning from 'warning';
 
-const dayAbbreviation = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
-const dayList = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-const monthList = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
-  'Oct', 'Nov', 'Dec'];
-const monthLongList = ['January', 'February', 'March', 'April', 'May', 'June',
-  'July', 'August', 'September', 'October', 'November', 'December'];
+var dayAbbreviation = ['日', '一', '二', '三', '四', '五', '六'];
+var dayList = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+var monthList = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二'];
+var monthLongList = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
 
 export function dateTimeFormat(locale, options) {
   warning(locale === 'en-US', `The ${locale} locale is not supported by the built-in DateTimeFormat.
