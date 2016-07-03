@@ -63,4 +63,5 @@ export ToolbarGroup from './Toolbar/ToolbarGroup';
 export ToolbarSeparator from './Toolbar/ToolbarSeparator';
 export ToolbarTitle from './Toolbar/ToolbarTitle';
 export Col from './Layout/Col';
+export Row from './Layout/Row';
 export Grid from './Layout/Grid';
